@@ -25,7 +25,7 @@ import UIKit
  that class ignores the first ~20px of the touch while it figures out if you
  "really" want to pan. This is a drawing program, so that's not good.
  */
-class ImmediatePanGestureRecognizer: UIGestureRecognizer {
+ class ImmediatePanGestureRecognizer: UIGestureRecognizer {
   var tapThreshold: CGFloat = 10
   // If gesture ends and this value is `true`, then the user's finger moved
   // more than `tapThreshold` points during the gesture, i.e. it is not a tap.
